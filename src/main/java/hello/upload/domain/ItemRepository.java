@@ -11,7 +11,7 @@ public class ItemRepository {
     private final Map<Long, Item> store = new HashMap<>();
     private  long sequence = 0l;
 
-    public Item Save(Item item){
+    public Item save(Item item){
         item.setId(++sequence);
         store.put(item.getId(), item);
         return item;

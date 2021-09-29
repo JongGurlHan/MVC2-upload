@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.util.List;
 
+//업로드파일(db저장)
 @Data
 public class Item {
     private Long id;
